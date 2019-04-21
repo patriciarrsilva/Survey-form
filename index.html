@@ -15,114 +15,115 @@
     <section>
       <p id="description">Let us know how we can improve our parties</p>
 
-      <form id="survey-form" action="/submit-form">
+      <form id="survey-form"></form>
+      <!-- action="/submit-form"-->
 
-        <div class="field">
-          <label for="name" id="name-label" class="label">* Name:</label>
-          <input type="text" id="name" placeholder="Enter your name" required>
-        </div>
+      <div class="field">
+        <label for="name" id="name-label" class="label">* Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
 
-        <div class="field">
-          <label for="email" id="email-label" class="label">* Email:</label>
-          <input type="email" id="email" placeholder="Enter your email" required>
-        </div>
+      <div class="field">
+        <label for="email" id="email-label" class="label">* Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
 
-        <div class="field">
-          <label for="number" id="number-label" class="label">* Age:</label>
-          <input type="number" id="number" placeholder="Age" min="1" max="125" required>
-        </div>
+      <div class="field">
+        <label for="number" id="number-label" class="label">* Age:</label>
+        <input type="number" id="number" placeholder="Age" min="1" max="125" required>
+      </div>
 
-        <div class="field">
-          <label for="dropdown" class="label">What was your favourite party?</label>
-          <select id="dropdown">
-            <option value="">Select an option</option>
-            <option value="student" selected>Halloween</option>
-            <option value="full-time-job">Spring break</option>
-            <option value="full-time-learner">Christmas</option>
-            <option value="prefer-not-to-say">Easter</option>
-            <option value="other">Not sure</option>
-          </select>
-        </div>
+      <div class="field">
+        <label for="dropdown" class="label">What was your favourite party?</label>
+        <select id="dropdown">
+          <option value="">Select an option</option>
+          <option value="student" selected>Halloween</option>
+          <option value="full-time-job">Spring break</option>
+          <option value="full-time-learner">Christmas</option>
+          <option value="prefer-not-to-say">Easter</option>
+          <option value="other">Not sure</option>
+        </select>
+      </div>
 
-        <div class="field">
-          <p class="recommend label">* How likely is that you would recommend our parties to a friend?</p>
+      <div class="field">
+        <p class="recommend label">* How likely is that you would recommend our parties to a friend?</p>
 
-          <div class="recommend">
-            <div>
-              <input type="radio" name="recommend" id="definitely" value="definitely" required>
-              <label for="definitely">Definitely</label>
-            </div>
+        <div class="recommend">
+          <div>
+            <input type="radio" name="recommend" id="definitely" value="definitely" required>
+            <label for="definitely">Definitely</label>
+          </div>
 
-            <div>
-              <input type="radio" name="recommend" id="maybe" value="maybe" required>
-              <label for="maybe">Maybe</label>
+          <div>
+            <input type="radio" name="recommend" id="maybe" value="maybe" required>
+            <label for="maybe">Maybe</label>
 
-            </div>
+          </div>
 
-            <div>
-              <input type="radio" name="recommend" id="not-sure" value="not-sure" required>
-              <label for="not-sure">Not sure</label>
-            </div>
+          <div>
+            <input type="radio" name="recommend" id="not-sure" value="not-sure" required>
+            <label for="not-sure">Not sure</label>
           </div>
         </div>
+      </div>
 
-        <div class="field">
-          <p class="improved label">Things that should be improved in the future (Check all that apply):</p>
+      <div class="field">
+        <p class="improved label">Things that should be improved in the future (Check all that apply):</p>
 
-          <div class="improved">
-            <div>
-              <input type="checkbox" id="ball-pit" name="improved" value="ball-pit">
-              <label for="ball-pit">Ball pit</label>
-            </div>
+        <div class="improved">
+          <div>
+            <input type="checkbox" id="ball-pit" name="improved" value="ball-pit">
+            <label for="ball-pit">Ball pit</label>
+          </div>
 
-            <div>
-              <input type="checkbox" id="inflatables" name="improved" value="inflatables">
-              <label for="inflatables">Inflatables</label>
-            </div>
+          <div>
+            <input type="checkbox" id="inflatables" name="improved" value="inflatables">
+            <label for="inflatables">Inflatables</label>
+          </div>
 
-            <div>
-              <input type="checkbox" id="food" name="improved" value="food">
-              <label for="food">Food</label>
-            </div>
+          <div>
+            <input type="checkbox" id="food" name="improved" value="food">
+            <label for="food">Food</label>
+          </div>
 
-            <div>
-              <input type="checkbox" id="games" name="improved" value="games">
-              <label for="games">Games</label>
-            </div>
+          <div>
+            <input type="checkbox" id="games" name="improved" value="games">
+            <label for="games">Games</label>
+          </div>
 
-            <div>
-              <input type="checkbox" id="music" name="improved" value="music">
-              <label for="music">Music</label>
-            </div>
+          <div>
+            <input type="checkbox" id="music" name="improved" value="music">
+            <label for="music">Music</label>
+          </div>
 
-            <div>
-              <input type="checkbox" id="dance" name="improved" value="dance">
-              <label for="dance">Dance</label>
-            </div>
+          <div>
+            <input type="checkbox" id="dance" name="improved" value="dance">
+            <label for="dance">Dance</label>
+          </div>
 
-            <div>
-              <input type="checkbox" id="place" name="improved" value="place">
-              <label for="place">Place</label>
-            </div>
+          <div>
+            <input type="checkbox" id="place" name="improved" value="place">
+            <label for="place">Place</label>
+          </div>
 
-            <div>
-              <input type="checkbox" id="hosts" name="improved" value="hosts">
-              <label for="hosts">Hosts</label>
-            </div>
+          <div>
+            <input type="checkbox" id="hosts" name="improved" value="hosts">
+            <label for="hosts">Hosts</label>
+          </div>
 
-            <div>
-              <input type="checkbox" id="schedule" name="improved" value="schedule">
-              <label for="schedule">Schedule</label>
-            </div>
+          <div>
+            <input type="checkbox" id="schedule" name="improved" value="schedule">
+            <label for="schedule">Schedule</label>
           </div>
         </div>
+      </div>
 
-        <div class="field">
-          <label for="comments" class="label">Additional comments</label>
-          <textarea id="comments" placeholder="Enter your comment here..." size="100"></textarea>
-        </div>
+      <div class="field">
+        <label for="comments" class="label">Additional comments</label>
+        <textarea id="comments" placeholder="Enter your comment here..." cols="100"></textarea>
+      </div>
 
-        <button id="submit">Submit</button>
+      <button id="submit">Submit</button>
 
       </form>
     </section>
